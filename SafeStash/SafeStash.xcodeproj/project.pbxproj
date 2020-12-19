@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC4BD65A258EC50F00C89E2B /* SafeStashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BD659258EC50F00C89E2B /* SafeStashApp.swift */; };
+		BC4BD65C258EC50F00C89E2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BD65B258EC50F00C89E2B /* ContentView.swift */; };
+		BC4BD65E258EC51100C89E2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4BD65D258EC51100C89E2B /* Assets.xcassets */; };
+		BC4BD661258EC51100C89E2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4BD660258EC51100C89E2B /* Preview Assets.xcassets */; };
+		BC4BD663258EC51100C89E2B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BD662258EC51100C89E2B /* Persistence.swift */; };
+		BC4BD666258EC51100C89E2B /* SafeStash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC4BD664258EC51100C89E2B /* SafeStash.xcdatamodeld */; };
+		BC4BD671258EC51100C89E2B /* SafeStashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BD670258EC51100C89E2B /* SafeStashTests.swift */; };
+		BC4BD67C258EC51100C89E2B /* SafeStashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BD67B258EC51100C89E2B /* SafeStashUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC4BD66D258EC51100C89E2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC4BD64E258EC50F00C89E2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC4BD655258EC50F00C89E2B;
+			remoteInfo = SafeStash;
+		};
+		BC4BD678258EC51100C89E2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC4BD64E258EC50F00C89E2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC4BD655258EC50F00C89E2B;
+			remoteInfo = SafeStash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC4BD656258EC50F00C89E2B /* SafeStash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeStash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4BD659258EC50F00C89E2B /* SafeStashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeStashApp.swift; sourceTree = "<group>"; };
+		BC4BD65B258EC50F00C89E2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC4BD65D258EC51100C89E2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC4BD660258EC51100C89E2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC4BD662258EC51100C89E2B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BC4BD665258EC51100C89E2B /* SafeStash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SafeStash.xcdatamodel; sourceTree = "<group>"; };
+		BC4BD667258EC51100C89E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4BD66C258EC51100C89E2B /* SafeStashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeStashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4BD670258EC51100C89E2B /* SafeStashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeStashTests.swift; sourceTree = "<group>"; };
+		BC4BD672258EC51100C89E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC4BD677258EC51100C89E2B /* SafeStashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeStashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4BD67B258EC51100C89E2B /* SafeStashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeStashUITests.swift; sourceTree = "<group>"; };
+		BC4BD67D258EC51100C89E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC4BD653258EC50F00C89E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4BD669258EC51100C89E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4BD674258EC51100C89E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC4BD64D258EC50F00C89E2B = {
+			isa = PBXGroup;
+			children = (
+				BC4BD658258EC50F00C89E2B /* SafeStash */,
+				BC4BD66F258EC51100C89E2B /* SafeStashTests */,
+				BC4BD67A258EC51100C89E2B /* SafeStashUITests */,
+				BC4BD657258EC50F00C89E2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC4BD657258EC50F00C89E2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC4BD656258EC50F00C89E2B /* SafeStash.app */,
+				BC4BD66C258EC51100C89E2B /* SafeStashTests.xctest */,
+				BC4BD677258EC51100C89E2B /* SafeStashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC4BD658258EC50F00C89E2B /* SafeStash */ = {
+			isa = PBXGroup;
+			children = (
+				BC4BD659258EC50F00C89E2B /* SafeStashApp.swift */,
+				BC4BD65B258EC50F00C89E2B /* ContentView.swift */,
+				BC4BD65D258EC51100C89E2B /* Assets.xcassets */,
+				BC4BD662258EC51100C89E2B /* Persistence.swift */,
+				BC4BD667258EC51100C89E2B /* Info.plist */,
+				BC4BD664258EC51100C89E2B /* SafeStash.xcdatamodeld */,
+				BC4BD65F258EC51100C89E2B /* Preview Content */,
+			);
+			path = SafeStash;
+			sourceTree = "<group>";
+		};
+		BC4BD65F258EC51100C89E2B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC4BD660258EC51100C89E2B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC4BD66F258EC51100C89E2B /* SafeStashTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC4BD670258EC51100C89E2B /* SafeStashTests.swift */,
+				BC4BD672258EC51100C89E2B /* Info.plist */,
+			);
+			path = SafeStashTests;
+			sourceTree = "<group>";
+		};
+		BC4BD67A258EC51100C89E2B /* SafeStashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC4BD67B258EC51100C89E2B /* SafeStashUITests.swift */,
+				BC4BD67D258EC51100C89E2B /* Info.plist */,
+			);
+			path = SafeStashUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC4BD655258EC50F00C89E2B /* SafeStash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4BD680258EC51100C89E2B /* Build configuration list for PBXNativeTarget "SafeStash" */;
+			buildPhases = (
+				BC4BD652258EC50F00C89E2B /* Sources */,
+				BC4BD653258EC50F00C89E2B /* Frameworks */,
+				BC4BD654258EC50F00C89E2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafeStash;
+			productName = SafeStash;
+			productReference = BC4BD656258EC50F00C89E2B /* SafeStash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC4BD66B258EC51100C89E2B /* SafeStashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4BD683258EC51100C89E2B /* Build configuration list for PBXNativeTarget "SafeStashTests" */;
+			buildPhases = (
+				BC4BD668258EC51100C89E2B /* Sources */,
+				BC4BD669258EC51100C89E2B /* Frameworks */,
+				BC4BD66A258EC51100C89E2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC4BD66E258EC51100C89E2B /* PBXTargetDependency */,
+			);
+			name = SafeStashTests;
+			productName = SafeStashTests;
+			productReference = BC4BD66C258EC51100C89E2B /* SafeStashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC4BD676258EC51100C89E2B /* SafeStashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4BD686258EC51100C89E2B /* Build configuration list for PBXNativeTarget "SafeStashUITests" */;
+			buildPhases = (
+				BC4BD673258EC51100C89E2B /* Sources */,
+				BC4BD674258EC51100C89E2B /* Frameworks */,
+				BC4BD675258EC51100C89E2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC4BD679258EC51100C89E2B /* PBXTargetDependency */,
+			);
+			name = SafeStashUITests;
+			productName = SafeStashUITests;
+			productReference = BC4BD677258EC51100C89E2B /* SafeStashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC4BD64E258EC50F00C89E2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					BC4BD655258EC50F00C89E2B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					BC4BD66B258EC51100C89E2B = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = BC4BD655258EC50F00C89E2B;
+					};
+					BC4BD676258EC51100C89E2B = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = BC4BD655258EC50F00C89E2B;
+					};
+				};
+			};
+			buildConfigurationList = BC4BD651258EC50F00C89E2B /* Build configuration list for PBXProject "SafeStash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC4BD64D258EC50F00C89E2B;
+			productRefGroup = BC4BD657258EC50F00C89E2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC4BD655258EC50F00C89E2B /* SafeStash */,
+				BC4BD66B258EC51100C89E2B /* SafeStashTests */,
+				BC4BD676258EC51100C89E2B /* SafeStashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC4BD654258EC50F00C89E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4BD661258EC51100C89E2B /* Preview Assets.xcassets in Resources */,
+				BC4BD65E258EC51100C89E2B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4BD66A258EC51100C89E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4BD675258EC51100C89E2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC4BD652258EC50F00C89E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4BD666258EC51100C89E2B /* SafeStash.xcdatamodeld in Sources */,
+				BC4BD663258EC51100C89E2B /* Persistence.swift in Sources */,
+				BC4BD65C258EC50F00C89E2B /* ContentView.swift in Sources */,
+				BC4BD65A258EC50F00C89E2B /* SafeStashApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4BD668258EC51100C89E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4BD671258EC51100C89E2B /* SafeStashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4BD673258EC51100C89E2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4BD67C258EC51100C89E2B /* SafeStashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC4BD66E258EC51100C89E2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC4BD655258EC50F00C89E2B /* SafeStash */;
+			targetProxy = BC4BD66D258EC51100C89E2B /* PBXContainerItemProxy */;
+		};
+		BC4BD679258EC51100C89E2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC4BD655258EC50F00C89E2B /* SafeStash */;
+			targetProxy = BC4BD678258EC51100C89E2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC4BD67E258EC51100C89E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC4BD67F258EC51100C89E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC4BD681258EC51100C89E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SafeStash/Preview Content\"";
+				DEVELOPMENT_TEAM = GMC4Z3BP4Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SafeStash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellough.SafeStash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC4BD682258EC51100C89E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SafeStash/Preview Content\"";
+				DEVELOPMENT_TEAM = GMC4Z3BP4Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SafeStash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellough.SafeStash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC4BD684258EC51100C89E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMC4Z3BP4Y;
+				INFOPLIST_FILE = SafeStashTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellough.SafeStashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeStash.app/SafeStash";
+			};
+			name = Debug;
+		};
+		BC4BD685258EC51100C89E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMC4Z3BP4Y;
+				INFOPLIST_FILE = SafeStashTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellough.SafeStashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeStash.app/SafeStash";
+			};
+			name = Release;
+		};
+		BC4BD687258EC51100C89E2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMC4Z3BP4Y;
+				INFOPLIST_FILE = SafeStashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellough.SafeStashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafeStash;
+			};
+			name = Debug;
+		};
+		BC4BD688258EC51100C89E2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMC4Z3BP4Y;
+				INFOPLIST_FILE = SafeStashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellough.SafeStashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafeStash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC4BD651258EC50F00C89E2B /* Build configuration list for PBXProject "SafeStash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4BD67E258EC51100C89E2B /* Debug */,
+				BC4BD67F258EC51100C89E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4BD680258EC51100C89E2B /* Build configuration list for PBXNativeTarget "SafeStash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4BD681258EC51100C89E2B /* Debug */,
+				BC4BD682258EC51100C89E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4BD683258EC51100C89E2B /* Build configuration list for PBXNativeTarget "SafeStashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4BD684258EC51100C89E2B /* Debug */,
+				BC4BD685258EC51100C89E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4BD686258EC51100C89E2B /* Build configuration list for PBXNativeTarget "SafeStashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4BD687258EC51100C89E2B /* Debug */,
+				BC4BD688258EC51100C89E2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BC4BD664258EC51100C89E2B /* SafeStash.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BC4BD665258EC51100C89E2B /* SafeStash.xcdatamodel */,
+			);
+			currentVersion = BC4BD665258EC51100C89E2B /* SafeStash.xcdatamodel */;
+			path = SafeStash.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BC4BD64E258EC50F00C89E2B /* Project object */;
+}
