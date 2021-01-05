@@ -42,6 +42,9 @@ extension Account {
     public var unwrappedPassword: String {
         password ?? "Unknown password"
     }
+    public var unwrappedPin: String {
+        pin ?? "Unknown pin"
+    }
     public var unwrappedNotes: String {
         notes ?? "Unknown notes"
     }

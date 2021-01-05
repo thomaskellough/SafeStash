@@ -12,6 +12,7 @@ struct AccountDetailView: View {
     @State private var isEditing = false
     @State private var username = ""
     @State private var password = ""
+    @State private var pin = ""
     @State private var email = ""
     @State private var notesText = ""
     var account: Account
@@ -33,6 +34,11 @@ struct AccountDetailView: View {
                 Text("Password")
                 isEditing ? TextField(account.unwrappedPassword, text: $password) : nil
                 !isEditing ? Text(account.unwrappedPassword) : nil
+            }
+            VStack(alignment: .leading) {
+                Text("Password")
+                isEditing ? TextField(account.unwrappedPin, text: $pin) : nil
+                !isEditing ? Text(account.unwrappedPin) : nil
             }
             VStack(alignment: .leading) {
                 Text("Email")
@@ -65,6 +71,7 @@ struct AccountDetailView: View {
             let account = accounts[0]
             self.username != "" ? account.username = self.username : nil
             self.password != "" ? account.password = self.password : nil
+            self.pin != "" ? account.pin = self.pin : nil
             self.email != "" ? account.email = self.email : nil
             self.notesText != "" ? account.notes = self.notesText : nil
             
