@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC018514258EC97300E34468 /* SafeStash.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = BC4BD664258EC51100C89E2B /* SafeStash.xcdatamodeld */; };
+		BC1B25BD259B9ECF005E7AA2 /* AccountDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1B25BC259B9ECF005E7AA2 /* AccountDetailView.swift */; };
+		BC2D9CD425A3E43300E60444 /* Account+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2D9CD225A3E43300E60444 /* Account+CoreDataClass.swift */; };
+		BC2D9CD525A3E43300E60444 /* Account+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2D9CD325A3E43300E60444 /* Account+CoreDataProperties.swift */; };
+		BC2D9CDD25A3ED7700E60444 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2D9CDC25A3ED7700E60444 /* CoreDataManager.swift */; };
 		BC4BD65A258EC50F00C89E2B /* SafeStashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BD659258EC50F00C89E2B /* SafeStashApp.swift */; };
 		BC4BD65C258EC50F00C89E2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BD65B258EC50F00C89E2B /* ContentView.swift */; };
 		BC4BD65E258EC51100C89E2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4BD65D258EC51100C89E2B /* Assets.xcassets */; };
 		BC4BD661258EC51100C89E2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4BD660258EC51100C89E2B /* Preview Assets.xcassets */; };
 		BC4BD663258EC51100C89E2B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BD662258EC51100C89E2B /* Persistence.swift */; };
-		BC4BD666258EC51100C89E2B /* SafeStash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC4BD664258EC51100C89E2B /* SafeStash.xcdatamodeld */; };
 		BC4BD671258EC51100C89E2B /* SafeStashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BD670258EC51100C89E2B /* SafeStashTests.swift */; };
 		BC4BD67C258EC51100C89E2B /* SafeStashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BD67B258EC51100C89E2B /* SafeStashUITests.swift */; };
+		BC5BE631258ED60200A9740A /* FolderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BE630258ED60200A9740A /* FolderListView.swift */; };
+		BC5BE63F258ED80000A9740A /* AddNewAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5BE63E258ED80000A9740A /* AddNewAccount.swift */; };
+		BC6A38A425929E7B00A6F6B4 /* AddNewAccountFolderListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A38A325929E7B00A6F6B4 /* AddNewAccountFolderListItem.swift */; };
+		BC6A38A925929ECB00A6F6B4 /* AddNewAccountListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A38A825929ECB00A6F6B4 /* AddNewAccountListItem.swift */; };
+		BC6A38AE2592B9BB00A6F6B4 /* NewAccount+ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A38AD2592B9BB00A6F6B4 /* NewAccount+ObservableObject.swift */; };
+		BC6A38B32592BA0F00A6F6B4 /* FolderSuggestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A38B22592BA0F00A6F6B4 /* FolderSuggestionsView.swift */; };
+		BCBDF0F125901AFF0090D9DB /* EdgeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBDF0F025901AFF0090D9DB /* EdgeBorder.swift */; };
+		BCBDF0F925901B3B0090D9DB /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBDF0F825901B3B0090D9DB /* View+Extension.swift */; };
+		BCBDF0FF25901DAC0090D9DB /* FolderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBDF0FE25901DAC0090D9DB /* FolderDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC1B25BC259B9ECF005E7AA2 /* AccountDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetailView.swift; sourceTree = "<group>"; };
+		BC2D9CD225A3E43300E60444 /* Account+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		BC2D9CD325A3E43300E60444 /* Account+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		BC2D9CDC25A3ED7700E60444 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		BC4BD656258EC50F00C89E2B /* SafeStash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeStash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4BD659258EC50F00C89E2B /* SafeStashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeStashApp.swift; sourceTree = "<group>"; };
 		BC4BD65B258EC50F00C89E2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +66,15 @@
 		BC4BD677258EC51100C89E2B /* SafeStashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeStashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4BD67B258EC51100C89E2B /* SafeStashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeStashUITests.swift; sourceTree = "<group>"; };
 		BC4BD67D258EC51100C89E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC5BE630258ED60200A9740A /* FolderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderListView.swift; sourceTree = "<group>"; };
+		BC5BE63E258ED80000A9740A /* AddNewAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewAccount.swift; sourceTree = "<group>"; };
+		BC6A38A325929E7B00A6F6B4 /* AddNewAccountFolderListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewAccountFolderListItem.swift; sourceTree = "<group>"; };
+		BC6A38A825929ECB00A6F6B4 /* AddNewAccountListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewAccountListItem.swift; sourceTree = "<group>"; };
+		BC6A38AD2592B9BB00A6F6B4 /* NewAccount+ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewAccount+ObservableObject.swift"; sourceTree = "<group>"; };
+		BC6A38B22592BA0F00A6F6B4 /* FolderSuggestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderSuggestionsView.swift; sourceTree = "<group>"; };
+		BCBDF0F025901AFF0090D9DB /* EdgeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeBorder.swift; sourceTree = "<group>"; };
+		BCBDF0F825901B3B0090D9DB /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		BCBDF0FE25901DAC0090D9DB /* FolderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +125,14 @@
 		BC4BD658258EC50F00C89E2B /* SafeStash */ = {
 			isa = PBXGroup;
 			children = (
+				BCBDF0EF25901AE80090D9DB /* Helpers */,
+				BCBDF0EE25901AE00090D9DB /* Extensions */,
+				BCE27D13258EC5D9006D81C3 /* Models */,
+				BCE27D12258EC5D5006D81C3 /* Views */,
 				BC4BD659258EC50F00C89E2B /* SafeStashApp.swift */,
-				BC4BD65B258EC50F00C89E2B /* ContentView.swift */,
 				BC4BD65D258EC51100C89E2B /* Assets.xcassets */,
 				BC4BD662258EC51100C89E2B /* Persistence.swift */,
 				BC4BD667258EC51100C89E2B /* Info.plist */,
-				BC4BD664258EC51100C89E2B /* SafeStash.xcdatamodeld */,
 				BC4BD65F258EC51100C89E2B /* Preview Content */,
 			);
 			path = SafeStash;
@@ -134,6 +162,49 @@
 				BC4BD67D258EC51100C89E2B /* Info.plist */,
 			);
 			path = SafeStashUITests;
+			sourceTree = "<group>";
+		};
+		BCBDF0EE25901AE00090D9DB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BCBDF0F825901B3B0090D9DB /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BCBDF0EF25901AE80090D9DB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BCBDF0F025901AFF0090D9DB /* EdgeBorder.swift */,
+				BC2D9CDC25A3ED7700E60444 /* CoreDataManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BCE27D12258EC5D5006D81C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC4BD65B258EC50F00C89E2B /* ContentView.swift */,
+				BC5BE630258ED60200A9740A /* FolderListView.swift */,
+				BC5BE63E258ED80000A9740A /* AddNewAccount.swift */,
+				BCBDF0FE25901DAC0090D9DB /* FolderDetailView.swift */,
+				BC6A38A325929E7B00A6F6B4 /* AddNewAccountFolderListItem.swift */,
+				BC6A38A825929ECB00A6F6B4 /* AddNewAccountListItem.swift */,
+				BC6A38B22592BA0F00A6F6B4 /* FolderSuggestionsView.swift */,
+				BC1B25BC259B9ECF005E7AA2 /* AccountDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCE27D13258EC5D9006D81C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC2D9CD225A3E43300E60444 /* Account+CoreDataClass.swift */,
+				BC2D9CD325A3E43300E60444 /* Account+CoreDataProperties.swift */,
+				BC4BD664258EC51100C89E2B /* SafeStash.xcdatamodeld */,
+				BC6A38AD2592B9BB00A6F6B4 /* NewAccount+ObservableObject.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC018514258EC97300E34468 /* SafeStash.xcdatamodeld in Resources */,
 				BC4BD661258EC51100C89E2B /* Preview Assets.xcassets in Resources */,
 				BC4BD65E258EC51100C89E2B /* Assets.xcassets in Resources */,
 			);
@@ -265,10 +337,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC4BD666258EC51100C89E2B /* SafeStash.xcdatamodeld in Sources */,
+				BC5BE631258ED60200A9740A /* FolderListView.swift in Sources */,
 				BC4BD663258EC51100C89E2B /* Persistence.swift in Sources */,
+				BC6A38AE2592B9BB00A6F6B4 /* NewAccount+ObservableObject.swift in Sources */,
+				BCBDF0F925901B3B0090D9DB /* View+Extension.swift in Sources */,
 				BC4BD65C258EC50F00C89E2B /* ContentView.swift in Sources */,
+				BC6A38A925929ECB00A6F6B4 /* AddNewAccountListItem.swift in Sources */,
 				BC4BD65A258EC50F00C89E2B /* SafeStashApp.swift in Sources */,
+				BC5BE63F258ED80000A9740A /* AddNewAccount.swift in Sources */,
+				BCBDF0FF25901DAC0090D9DB /* FolderDetailView.swift in Sources */,
+				BC2D9CD425A3E43300E60444 /* Account+CoreDataClass.swift in Sources */,
+				BC6A38A425929E7B00A6F6B4 /* AddNewAccountFolderListItem.swift in Sources */,
+				BCBDF0F125901AFF0090D9DB /* EdgeBorder.swift in Sources */,
+				BC2D9CD525A3E43300E60444 /* Account+CoreDataProperties.swift in Sources */,
+				BC1B25BD259B9ECF005E7AA2 /* AccountDetailView.swift in Sources */,
+				BC2D9CDD25A3ED7700E60444 /* CoreDataManager.swift in Sources */,
+				BC6A38B32592BA0F00A6F6B4 /* FolderSuggestionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -410,7 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

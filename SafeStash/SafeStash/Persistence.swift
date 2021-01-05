@@ -13,9 +13,15 @@ struct PersistenceController {
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
-        for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
+        for i in 0..<10 {
+            let newItem = Account(context: viewContext)
             newItem.timestamp = Date()
+            newItem.folder = "Folder: \(i)"
+            newItem.username = "Username: \(i)"
+            newItem.password = "password\(i)"
+            newItem.email = "Email: \(i)"
+            newItem.pin = "1234"
+            newItem.notes = "Detailed notes here"
         }
         do {
             try viewContext.save()
