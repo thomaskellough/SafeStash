@@ -28,23 +28,6 @@ struct ContentView: View {
                         }) {
                             Image(systemName: "doc.badge.plus")
                         }
-                        
-//                        Button("Add test accounts") {
-//                            for i in 0..<100 {
-//                                let newAccount = Account(context: self.moc)
-//                                newAccount.id = UUID()
-//                                newAccount.name = "Name: \(i)"
-//                                newAccount.username = "Username: \(i)"
-//                                newAccount.email = "email\(i)@gmail.com"
-//                                newAccount.folder = "Folder\(i)"
-//                                newAccount.notes = "Notes for \(i)"
-//                                newAccount.password = "pasword\(i)"
-//                                newAccount.pin = "1234"
-//                                newAccount.timestamp = Date()
-//                                
-//                                try? self.moc.save()
-//                            }
-//                        }
                     }
                 )
                 .sheet(isPresented: $isShowingAddNewAccountView) {
