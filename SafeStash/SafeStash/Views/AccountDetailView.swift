@@ -19,7 +19,11 @@ struct AccountDetailView: View {
     
     var body: some View {
         let notesBinding = Binding<String>(get: {
-            self.notesText
+            if self.notesText != "" {
+                return self.notesText
+            } else {
+                return " "
+            }
         }, set: {
             self.notesText = $0
         })
@@ -73,7 +77,7 @@ struct AccountDetailView: View {
             self.password != "" ? account.password = self.password : nil
             self.pin != "" ? account.pin = self.pin : nil
             self.email != "" ? account.email = self.email : nil
-            self.notesText != "" ? account.notes = self.notesText : nil
+            self.notesText != "" ? account.notes = self.notesText.trimmingCharacters(in: .whitespaces) : nil
             
             try? self.moc.save()
         }
