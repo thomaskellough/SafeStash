@@ -28,6 +28,6 @@ struct FolderDetailView: View {
 
 struct GroupDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        FolderDetailView(filter: "Group : 0").environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        FolderDetailView(filter: "Entertainmen").environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }

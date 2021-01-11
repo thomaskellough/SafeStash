@@ -26,14 +26,6 @@ struct AddNewAccountFolderListItem: View {
             get: { self.newAccount.folder },
             set: { self.value = $0 }
         )
-//        let suggestionsBinding = Binding (
-//            get: {
-//                var all = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"]
-//                var filtered =  all.filter { $0.contains(filterString) }
-//                self.filtered = filtered
-//            },
-//            set: { self.sugggestions = ["One", "Two", "Three", "Four", "Five", "Six", "Seven"] }
-//        )
         
         VStack {
             HStack {
@@ -48,7 +40,6 @@ struct AddNewAccountFolderListItem: View {
                         newAccount.folder = newValue
                         self.filterString = newValue
                         self.filterFolders()
-//                        self.showSuggestions(newValue: newValue)
                     }
             }
             isShowingSuggestions
@@ -56,7 +47,7 @@ struct AddNewAccountFolderListItem: View {
                 Text(suggestion)
                     .onTapGesture {
                         self.value = suggestion
-                        self.isShowingSuggestions = false
+                        self.isShowingSuggestions.toggle()
                     }
             }
             : nil
@@ -73,11 +64,6 @@ struct AddNewAccountFolderListItem: View {
         self.sugggestions = Array(Set(sugggestions))
         self.isShowingSuggestions = self.sugggestions.count > 0 ? true : false
     }
-    
-//    func showSuggestions(newValue: String) {
-//        self.accountNewValue = newValue
-//        isShowingSuggestions = true
-//    }
 }
 
 struct AddNewAccountFolderListItem_Previews: PreviewProvider {

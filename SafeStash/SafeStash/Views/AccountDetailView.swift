@@ -36,7 +36,7 @@ struct AccountDetailView: View {
                 !isEditing ? Text(account.unwrappedPassword) : nil
             }
             VStack(alignment: .leading) {
-                Text("Password")
+                Text("Pin")
                 isEditing ? TextField(account.unwrappedPin, text: $pin) : nil
                 !isEditing ? Text(account.unwrappedPin) : nil
             }

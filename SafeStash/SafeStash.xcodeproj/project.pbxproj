@@ -23,7 +23,6 @@
 		BC6A38A425929E7B00A6F6B4 /* AddNewAccountFolderListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A38A325929E7B00A6F6B4 /* AddNewAccountFolderListItem.swift */; };
 		BC6A38A925929ECB00A6F6B4 /* AddNewAccountListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A38A825929ECB00A6F6B4 /* AddNewAccountListItem.swift */; };
 		BC6A38AE2592B9BB00A6F6B4 /* NewAccount+ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A38AD2592B9BB00A6F6B4 /* NewAccount+ObservableObject.swift */; };
-		BC6A38B32592BA0F00A6F6B4 /* FolderSuggestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6A38B22592BA0F00A6F6B4 /* FolderSuggestionsView.swift */; };
 		BCBDF0F125901AFF0090D9DB /* EdgeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBDF0F025901AFF0090D9DB /* EdgeBorder.swift */; };
 		BCBDF0F925901B3B0090D9DB /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBDF0F825901B3B0090D9DB /* View+Extension.swift */; };
 		BCBDF0FF25901DAC0090D9DB /* FolderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBDF0FE25901DAC0090D9DB /* FolderDetailView.swift */; };
@@ -69,7 +68,6 @@
 		BC6A38A325929E7B00A6F6B4 /* AddNewAccountFolderListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewAccountFolderListItem.swift; sourceTree = "<group>"; };
 		BC6A38A825929ECB00A6F6B4 /* AddNewAccountListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewAccountListItem.swift; sourceTree = "<group>"; };
 		BC6A38AD2592B9BB00A6F6B4 /* NewAccount+ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewAccount+ObservableObject.swift"; sourceTree = "<group>"; };
-		BC6A38B22592BA0F00A6F6B4 /* FolderSuggestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderSuggestionsView.swift; sourceTree = "<group>"; };
 		BCBDF0F025901AFF0090D9DB /* EdgeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeBorder.swift; sourceTree = "<group>"; };
 		BCBDF0F825901B3B0090D9DB /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		BCBDF0FE25901DAC0090D9DB /* FolderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderDetailView.swift; sourceTree = "<group>"; };
@@ -187,7 +185,6 @@
 				BCBDF0FE25901DAC0090D9DB /* FolderDetailView.swift */,
 				BC6A38A325929E7B00A6F6B4 /* AddNewAccountFolderListItem.swift */,
 				BC6A38A825929ECB00A6F6B4 /* AddNewAccountListItem.swift */,
-				BC6A38B22592BA0F00A6F6B4 /* FolderSuggestionsView.swift */,
 				BC1B25BC259B9ECF005E7AA2 /* AccountDetailView.swift */,
 			);
 			path = Views;
@@ -348,7 +345,6 @@
 				BCBDF0F125901AFF0090D9DB /* EdgeBorder.swift in Sources */,
 				BC2D9CD525A3E43300E60444 /* Account+CoreDataProperties.swift in Sources */,
 				BC1B25BD259B9ECF005E7AA2 /* AccountDetailView.swift in Sources */,
-				BC6A38B32592BA0F00A6F6B4 /* FolderSuggestionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

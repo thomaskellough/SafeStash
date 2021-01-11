@@ -30,6 +30,7 @@ struct AddNewAccount: View {
                 AddNewAccountListItem(newAccount: newAccount, title: "Name", placeholder: "Gmail/Netflix/etc.")
                 AddNewAccountListItem(newAccount: newAccount, title: "Username", placeholder: "Johnny.Appleseed")
                 AddNewAccountListItem(newAccount: newAccount, title: "Password", placeholder: "Password")
+                AddNewAccountListItem(newAccount: newAccount, title: "Pin", placeholder: "1234")
                 AddNewAccountListItem(newAccount: newAccount, title: "Email", placeholder: "Johnny.appleseed@icloud.com")
             }
             .padding(.bottom)
@@ -70,6 +71,7 @@ struct AddNewAccount: View {
         cdNewAccount.name = newAccount.name
         cdNewAccount.email = newAccount.email
         cdNewAccount.password = newAccount.password
+        cdNewAccount.pin = newAccount.pin
         cdNewAccount.username = newAccount.username
         cdNewAccount.notes = newAccount.notes
         cdNewAccount.timestamp = Date()
@@ -80,7 +82,6 @@ struct AddNewAccount: View {
         }
         
         self.presentationMode.wrappedValue.dismiss()
-        
     }
 }
 
