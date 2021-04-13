@@ -11,16 +11,21 @@ import CoreData
 struct ContentView: View {
     @Environment(\.managedObjectContext) var moc
     @FetchRequest(entity: Account.entity(), sortDescriptors: [
-        NSSortDescriptor(keyPath: \Account.name, ascending: true)
+        NSSortDescriptor(keyPath: \Account.folder, ascending: true)
     ]) var accounts: FetchedResults<Account>
     
     @State private var isShowingAddNewFolderView = false
     @State private var isShowingAddNewAccountView = false
     
+    init() {
+        UITableView.appearance().backgroundColor = UIColor(named: "secondaryColor")
+    }
+    
     var body: some View {
         NavigationView {
             FolderListView()
                 .navigationBarTitle("Folders")
+                .accentColor(Color.red)
                 .navigationBarItems(trailing:
                     HStack {
                         Button(action: {
@@ -35,9 +40,10 @@ struct ContentView: View {
                             Text("Add Test Accounts")
                         }
                     }
+                                        .foregroundColor(Color.primary)
                 )
                 .sheet(isPresented: $isShowingAddNewAccountView) {
-                    AddNewAccount(newAccount: NewAccount())
+                    AddNewAccount(newAccount: NewAccount()).environment(\.managedObjectContext, self.moc)
                 }
         }
     }

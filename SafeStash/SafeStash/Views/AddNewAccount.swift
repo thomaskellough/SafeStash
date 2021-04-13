@@ -9,9 +9,8 @@ import SwiftUI
 
 struct AddNewAccount: View {
     @ObservedObject var newAccount: NewAccount
-    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    @Environment(\.presentationMode) var presentationMode
     @Environment(\.managedObjectContext) var moc
-    @State private var selectedStrength = 0
     @State private var notesText = ""
     
     var body: some View {
